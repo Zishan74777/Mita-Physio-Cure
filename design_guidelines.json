@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "name": "Mita Physio Cure",
+    "owner": "Sk Zishan Physio",
+    "location": "Birampur, Bagnan, Howrah, West Bengal 711303, India",
+    "phone": "+91 7477707139",
+    "theme": "Light",
+    "archetype": "1 (Organic & Earthy / Medical Trust)",
+    "description": "Premium healthcare UI/UX for a local physiotherapy clinic prioritizing frictionless booking, calming aesthetics, and transparent trust signals."
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Outfit",
+      "body": "Plus Jakarta Sans",
+      "import_instructions": "Import these fonts via Google Fonts. Do NOT use Inter for headings."
+    },
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-bold text-slate-900",
+      "h2": "text-3xl sm:text-4xl tracking-tight font-semibold text-slate-900",
+      "h3": "text-xl sm:text-2xl font-semibold text-slate-800",
+      "body": "text-base leading-relaxed text-slate-600",
+      "small": "text-sm uppercase tracking-wide font-semibold text-slate-500"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "bg-slate-50",
+      "secondary": "bg-white",
+      "accent": "bg-blue-50/50"
+    },
+    "brand": {
+      "blue_primary": "#0D47A1",
+      "blue_light": "#E0E7FF",
+      "green_accent": "#10B981",
+      "green_light": "#D1FAE5"
+    },
+    "tailwind_classes": {
+      "primary_btn": "bg-blue-700 hover:bg-blue-800 text-white",
+      "secondary_btn": "bg-emerald-500 hover:bg-emerald-600 text-white",
+      "badge_green": "bg-emerald-100 text-emerald-800 border-emerald-200",
+      "badge_blue": "bg-blue-100 text-blue-800 border-blue-200"
+    }
+  },
+  "layout": {
+    "spacing": "Use generous padding: py-20 or py-24 for main sections to create a calming, uncrowded feel.",
+    "grid": "Services: grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6. Use Bento-style asymmetry for About/Features sections.",
+    "borders_and_shadows": "Use rounded-2xl or rounded-3xl for soft, approachable medical feel. Apply ambient diffuse shadows (shadow-lg shadow-blue-900/5) to cards."
+  },
+  "components": {
+    "navigation": "Sticky top navigation using Crystal Glassmorphism (backdrop-blur-xl bg-white/80 border-b border-slate-200/50). Must feature Logo, Nav links, and a 'Call Now' CTA button.",
+    "hero": "Split layout or clean centered block. Overlapping Trust Badges ('4.5/5 Rating', 'Home Visit Available'). Use the primary CTA 'Book Appointment' prominently.",
+    "floating_whatsapp": "Fixed bottom-right button (z-50), glowing emerald green effect. Icon: WhatsApp. Action: opens wa.me link.",
+    "services_grid": "16 clean cards detailing services (Stroke Rehab, Back Pain, etc.). Use lucide-react icons for each. White background, subtle border, hover lift (-translate-y-1).",
+    "forms": "Use Shadcn Input, Textarea, Select. Keep fields minimal. OnSubmit -> construct WhatsApp URL and window.open(url, '_blank').",
+    "faq": "Shadcn Accordion component for common questions.",
+    "testimonials": "Shadcn Carousel for patient reviews to build trust.",
+    "map": "Embedded Google Map iframe for the clinic location (Birampur, Bagnan, Howrah).",
+    "legal": "Simple, clean text pages for Privacy Policy and T&C."
+  },
+  "media": {
+    "logos": [
+      {
+        "url": "https://customer-assets.emergentagent.com/job_0823103f-dc70-4711-a65b-8d81f30b1770/artifacts/58dpy871_Picsart_26-07-06_21-13-37-686.webp",
+        "description": "Mita Physio Cure Logo"
+      }
+    ],
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/20860625/pexels-photo-20860625.jpeg",
+        "category": "hero",
+        "description": "Patient stretching leg in a modern clinic - Ideal for hero section"
+      },
+      {
+        "url": "https://images.pexels.com/photos/7789616/pexels-photo-7789616.jpeg",
+        "category": "about_clinic",
+        "description": "Modern medical clinic interior with examination bed - Ideal for About section"
+      },
+      {
+        "url": "https://images.pexels.com/photos/20860610/pexels-photo-20860610.jpeg",
+        "category": "services_background",
+        "description": "Physiotherapy treatment session - Ideal for CTA or secondary sections"
+      }
+    ]
+  },
+  "testing": {
+    "data_testid": "All interactive elements (buttons, links, form inputs) MUST have data-testid attributes (e.g., data-testid='book-appointment-btn')."
+  },
+  "instructions_to_main_agent": [
+    "Build a responsive Next.js/React app using Tailwind CSS, adhering to the 'Premium Healthcare' aesthetic.",
+    "Implement lucide-react icons for all 16 services (e.g., Activity for exercise, HeartPulse for stroke, Accessibility for elderly).",
+    "Ensure 'Home Visit Available' is prominently displayed as a badge in the hero and header/footer.",
+    "The Appointment form MUST construct a WhatsApp wa.me URL (https://wa.me/917477707139?text=...) with the user's form details and redirect them in a new tab.",
+    "Use framer-motion for page load reveals and staggered grid entry animations.",
+    "Ensure 'Click-to-Call' functionality is active on phone numbers (href='tel:+917477707139').",
+    "Include local SEO meta tags and structural hierarchy suitable for 'Bagnan, Howrah' targeting."
+  ]
+}

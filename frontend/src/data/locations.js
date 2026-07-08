@@ -7,7 +7,7 @@ export const LOCATIONS = [
       "Looking for the best physiotherapist in Bagnan? Mita Physio Cure by Sk Zishan Physio offers expert physiotherapy for back pain, stroke rehab, sports injury & more. ⭐ 4.5/5.",
     h1: "Best Physiotherapist in Bagnan",
     intro:
-      "Mita Physio Cure is Bagnan's trusted physiotherapy clinic, led by Sk Zishan Physio (BPT). Whether you need stroke rehabilitation, back-pain treatment, sports-injury recovery or elderly care, we deliver evidence-based physiotherapy with one-on-one attention.",
+      "Mita Physio Cure is Bagnan's trusted physiotherapy clinic, led by Sk Zishan Physio (DPT). Whether you need stroke rehabilitation, back-pain treatment, sports-injury recovery or elderly care, we deliver evidence-based physiotherapy with one-on-one attention.",
     hoodPara:
       "We serve every neighbourhood in Bagnan — Birampur, Bagnan Station Road, Kulgachhia, Baruipara, Ghoraghata and more. Home visits available across all Bagnan localities.",
   },

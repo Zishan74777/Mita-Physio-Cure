@@ -2,7 +2,7 @@
 export const CLINIC = {
   name: "Mita Physio Cure",
   owner: "Sk Zishan Physio",
-  ownerTitle: "BPT, Certified Physiotherapist",
+  ownerTitle: "DPT, Certified Physiotherapist",
   phone: "+917477707139",
   phoneDisplay: "+91 74777 07139",
   whatsapp: "917477707139",

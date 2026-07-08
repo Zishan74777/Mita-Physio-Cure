@@ -63,7 +63,7 @@ export default function LocationPage({ slug: slugProp }) {
           <div className="lg:col-span-6">
             <h2 className="font-[Outfit] text-3xl font-bold text-slate-900 tracking-tight">Why {loc.city} patients choose us</h2>
             <ul className="mt-6 space-y-3">
-              {["Home visits with all required equipment","Certified physiotherapist — Sk Zishan (BPT)","Written treatment plans & home exercises","Transparent, honest pricing","Evening & Sunday slots available"].map((b) => (
+              {["Home visits with all required equipment","Certified physiotherapist — Sk Zishan (DPT)","Written treatment plans & home exercises","Transparent, honest pricing","Evening & Sunday slots available"].map((b) => (
                 <li key={b} className="flex items-start gap-2 text-slate-700"><CheckCircle2 className="h-5 w-5 text-emerald-600 shrink-0" /> {b}</li>
               ))}
             </ul>

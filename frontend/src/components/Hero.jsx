@@ -40,7 +40,7 @@ export default function Hero() {
               </div>
               <span className="text-slate-700"><span className="font-bold text-slate-900">{CLINIC.rating}/5</span> · {CLINIC.reviews} patients</span>
             </div>
-            <div className="inline-flex items-center gap-2 text-slate-700"><ShieldCheck className="h-4 w-4 text-emerald-600" /> Certified BPT · 5+ years experience</div>
+            <div className="inline-flex items-center gap-2 text-slate-700"><ShieldCheck className="h-4 w-4 text-emerald-600" /> Certified DPT · 3.5+ years experience</div>
           </div>
         </motion.div>
 

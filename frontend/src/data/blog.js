@@ -11,7 +11,7 @@ export const BLOG_POSTS = [
     read: "6 min read",
     body: [
       "Choosing a physiotherapist near Bagnan is not just about who is closest — it is about who can actually get you back to living your life pain-free. The wrong clinic can waste months.",
-      "**1. Verify qualifications.** A BPT (Bachelor of Physiotherapy) is the minimum. Ask about specialisations — neuro, ortho or sports.",
+      "**1. Verify qualifications.** A recognised physiotherapy qualification (such as a DPT) is the minimum. Ask about specialisations — neuro, ortho or sports.",
       "**2. Look for a proper assessment.** A good physiotherapist spends 20–30 minutes on the first visit understanding your history, imaging and movement patterns before prescribing treatment.",
       "**3. Insist on a written plan.** How many sessions? What outcomes? Home exercises? If a clinic can't tell you, keep looking.",
       "**4. Home-visit availability.** For stroke, post-surgery and elderly patients, home physiotherapy in Bagnan removes travel stress and delivers better outcomes.",

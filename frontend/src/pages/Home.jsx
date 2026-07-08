@@ -39,7 +39,7 @@ export default function Home() {
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { icon: HomeIcon, t: "Home Visits", d: "Doorstep physiotherapy across Bagnan, Amta, Uluberia & Howrah." },
-              { icon: ShieldCheck, t: "Certified BPT", d: "Led by Sk Zishan Physio with 5+ years of clinical practice." },
+              { icon: ShieldCheck, t: "Certified DPT", d: "Led by Sk Zishan Physio with 3.5+ years of clinical practice." },
               { icon: HeartPulse, t: "Evidence-Based", d: "Modern protocols — manual therapy, electrotherapy & exercise science." },
               { icon: Award, t: "4.5/5 Rated", d: "128+ patients across Bagnan trust us for lasting recovery." },
             ].map(({ icon: Icon, t, d }) => (

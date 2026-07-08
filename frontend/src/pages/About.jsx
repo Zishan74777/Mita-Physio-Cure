@@ -7,7 +7,7 @@ import { CLINIC, telLink } from "@/data/clinic";
 export default function About() {
   return (
     <>
-      <Seo title="About Sk Zishan Physio — Physiotherapist Bagnan" description="Learn about Mita Physio Cure and lead physiotherapist Sk Zishan Physio (BPT). Serving Bagnan, Howrah with certified, evidence-based physiotherapy." path="/about" />
+      <Seo title="About Sk Zishan Physio — Physiotherapist Bagnan" description="Learn about Mita Physio Cure and lead physiotherapist Sk Zishan Physio (DPT). Serving Bagnan, Howrah with certified, evidence-based physiotherapy." path="/about" />
       <section className="py-12 sm:py-16 bg-medical-grid">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Breadcrumbs items={[{ label: "About", to: "/about" }]} />
@@ -18,7 +18,7 @@ export default function About() {
                 Meet <span className="brand-underline">Sk Zishan Physio</span> — Bagnan&apos;s dedicated physiotherapist.
               </h1>
               <p className="mt-5 text-slate-600 leading-relaxed">
-                With over 5 years of clinical practice, Sk Zishan (BPT) founded Mita Physio Cure to raise the standard of physiotherapy care in Bagnan and Howrah. Every session is one-on-one, unhurried, and guided by a written plan you can trust.
+                With over 3.5 years of clinical practice, Sk Zishan (DPT) founded Mita Physio Cure to raise the standard of physiotherapy care in Bagnan and Howrah. Every session is one-on-one, unhurried, and guided by a written plan you can trust.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a href={telLink} data-testid="about-call" className="rounded-full bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 font-semibold">Call {CLINIC.phoneDisplay}</a>
@@ -43,7 +43,7 @@ export default function About() {
       <section className="py-14 sm:py-20 bg-white border-y border-slate-100">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-8 lg:grid-cols-3">
           {[
-            { icon: GraduationCap, t: "Qualified & Certified", d: "Bachelor of Physiotherapy (BPT), Registered practitioner, continued education in neuro & sports rehab." },
+            { icon: GraduationCap, t: "Qualified & Certified", d: "Diploma in Physiotherapy (DPT), Registered practitioner, continued education in neuro & sports rehab." },
             { icon: Heart, t: "Patient-First Philosophy", d: "We take the time to listen, examine, and explain — because informed patients recover faster." },
             { icon: ShieldCheck, t: "Ethical Practice", d: "Transparent pricing. Honest advice. No unnecessary sessions or upselling." },
           ].map(({ icon: Icon, t, d }) => (

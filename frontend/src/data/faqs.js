@@ -1,0 +1,18 @@
+export const FAQS = [
+  { q: "Do you offer home physiotherapy in Bagnan and nearby areas?",
+    a: "Yes. Sk Zishan Physio provides home physiotherapy across Bagnan, Birampur, Amta, Uluberia, Kolaghat, Deulti and surrounding Howrah areas. Call +91 74777 07139 to check availability and travel charges for your locality." },
+  { q: "How many sessions will I need for back pain / sciatica?",
+    a: "Most patients feel meaningful relief within 6–10 sessions. A structured plan typically runs 3–6 weeks depending on chronicity, imaging findings and how consistently you follow the home exercise programme." },
+  { q: "Do you treat stroke patients at home?",
+    a: "Absolutely — post-stroke neuro-rehabilitation is one of our core services. We deliver task-oriented exercises, gait training and family caregiver education right at your home for the best possible recovery." },
+  { q: "What are your working hours?",
+    a: "Monday to Saturday: 8:00 AM – 12:00 PM and 4:00 PM – 8:00 PM. Sunday: 8:00 AM – 1:00 PM. Emergency home visits can be arranged by phone." },
+  { q: "What should I bring to my first appointment?",
+    a: "Please carry any recent X-ray, MRI or medical reports, a list of current medications, and comfortable clothing that allows movement of the affected area." },
+  { q: "Do you accept walk-in patients?",
+    a: "Walk-ins are welcome, but we strongly recommend booking an appointment on WhatsApp so we can give you a dedicated one-on-one slot with minimal waiting." },
+  { q: "Is physiotherapy safe for elderly patients with multiple conditions?",
+    a: "Yes. All programmes are individually tailored around your medical history, medications and joint condition. We work closely with your doctor when needed." },
+  { q: "How is Mita Physio Cure different from a hospital OPD?",
+    a: "You get unhurried, one-on-one attention, a clear treatment plan, and a personal home-exercise programme — not a five-minute assembly-line session." },
+];

@@ -1,0 +1,23 @@
+{
+  "summary": "Frontend-only smoke + integration testing of the static Mita Physio Cure React site (no backend). All 15 requested feature areas passed: home page loads with hero/services/testimonials/FAQ/map/CTA sections, sticky navbar links resolve, mobile menu toggle works at 390px viewport, services index renders all 16 cards and detail pages open with an appointment form, blog index shows 6 posts and detail pages render, appointment form constructs a valid wa.me URL via window.open and shows the success message (data-testid appt-success), Click-to-Call uses tel:+917477707139 (nav-call-now), FloatingWhatsApp href starts with https://wa.me/917477707139, all 5 SEO location pages return 200 with H1, FAQ accordion opens (data-state=open), Testimonials prev/next buttons work, Contact page shows phone/email/address and an embedded map iframe, Privacy Policy and Terms render, unknown route shows 404 page, breadcrumbs are wired on all inner pages.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "Preview URL mismatch: review_request lists https://679500b4-b919-4dbc-a0ce-fdb263ef8b84.preview.emergentagent.com but frontend/.env has REACT_APP_BACKEND_URL=https://zishan-therapy.preview.emergentagent.com. Testing was performed against the .env value (which is what a browser session actually uses). Not a code bug, just informational.",
+    "AppointmentForm has no client-side phone validation beyond required (any string accepted). For a WhatsApp-driven flow this is acceptable but flagging for future hardening (regex/E.164 check)."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (static site)", "frontend": "100% (12/12 test categories passed)"},
+  "test_credentials": "N/A - public static site",
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "Site is a fully static React SPA — no backend / no API calls. All 'form submit' flows open WhatsApp via wa.me links (window.open). When testing appointment/contact forms with Playwright, monkey-patch window.open to capture the URL and then assert the URL prefix is https://wa.me/917477707139 and that data-testid=appt-success becomes visible. data-testid coverage is thorough (nav-link-<label>, mobile-nav-link-<label>, mobile-menu-toggle, nav-call-now, nav-book-appointment, floating-whatsapp, testimonial-prev/next, faq-q-<i>, faq-a-<i>, appt-name/phone/service/date/time/homevisit-yes/homevisit-no/notes/submit/success, appointment-form, site-navbar, testimonials-section, faq-accordion). Location slugs live in /app/frontend/src/data/locations.js. Services (16) in /app/frontend/src/data/services.js. Blog (6) in /app/frontend/src/data/blog.js.",
+  "rca of the issue": "No issues found."
+}

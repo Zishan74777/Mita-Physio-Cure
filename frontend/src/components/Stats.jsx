@@ -4,7 +4,7 @@ const STATS = [
   { k: "5+", v: "Years Experience" },
   { k: "1500+", v: "Patients Treated" },
   { k: "4.5/5", v: "Patient Rating" },
-  { k: "10+", v: "Areas Covered" },
+  { k: "100%", v: "Personalized Care" },
 ];
 
 export default function Stats() {

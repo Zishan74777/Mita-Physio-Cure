@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const STATS = [
   { k: "5+", v: "Years Experience" },
-  { k: "1500+", v: "Patients Treated" },
+  { k: "250+", v: "Patients Treated" },
   { k: "4.5/5", v: "Patient Rating" },
   { k: "100%", v: "Personalized Care" },
 ];

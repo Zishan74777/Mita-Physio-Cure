@@ -6,7 +6,7 @@ export const CLINIC = {
   phone: "+917477707139",
   phoneDisplay: "+91 74777 07139",
   whatsapp: "917477707139",
-  email: "care@mitaphysiocure.in",
+  email: "zishansk386@gmail.com",
   address: "Birampur, Bagnan, Howrah, West Bengal 711303, India",
   addressShort: "Birampur, Bagnan, Howrah",
   mapEmbed:

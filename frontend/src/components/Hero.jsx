@@ -59,7 +59,9 @@ export default function Hero() {
                 <div className="font-[Outfit] text-lg font-bold text-slate-900">{CLINIC.owner}</div>
                 <div className="text-xs text-slate-500">{CLINIC.ownerTitle}</div>
               </div>
-              <div className="h-12 w-12 rounded-full bg-blue-700 text-white flex items-center justify-center font-bold">SZ</div>
+              <div className="h-12 w-12 rounded-full bg-white ring-1 ring-slate-200 flex items-center justify-center overflow-hidden p-1 shrink-0">
+                <img src={CLINIC.logo} alt="Mita Physio Cure logo" className="h-full w-full object-contain" width="48" height="48" loading="lazy" />
+              </div>
             </div>
           </div>
 

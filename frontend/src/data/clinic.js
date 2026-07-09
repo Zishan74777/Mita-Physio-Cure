@@ -18,7 +18,7 @@ export const CLINIC = {
     { day: "Monday – Saturday", slots: ["8:00 AM – 12:00 PM", "4:00 PM – 8:00 PM"] },
     { day: "Sunday", slots: ["8:00 AM – 1:00 PM"] },
   ],
-  siteUrl: "https://mitaphysiocure.netlify.app",
+  siteUrl: "https://mitaphysiocure.in",
   logo: "https://customer-assets.emergentagent.com/job_0823103f-dc70-4711-a65b-8d81f30b1770/artifacts/58dpy871_Picsart_26-07-06_21-13-37-686.webp",
   areas: [
     "Bagnan", "Birampur", "Amta", "Uluberia", "Kolaghat", "Mecheda",

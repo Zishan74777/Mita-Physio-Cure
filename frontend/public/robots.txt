@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow:
 
-Sitemap: https://mitaphysiocure.netlify.app/sitemap.xml
+Sitemap: https://mitaphysiocure.in/sitemap.xml

@@ -10,7 +10,7 @@ export default function Breadcrumbs({ items = [] }) {
       "@type": "ListItem",
       position: i + 1,
       name: it.label,
-      item: `https://mitaphysiocure.netlify.app${it.to || ""}`,
+      item: `https://mitaphysiocure.in${it.to || ""}`,
     })),
   };
   return (
